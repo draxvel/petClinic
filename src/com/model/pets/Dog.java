@@ -1,4 +1,4 @@
-package pets;
+package com.model.pets;
 
 public class Dog extends Pet
 {

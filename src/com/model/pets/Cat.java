@@ -1,4 +1,4 @@
-package pets;
+package com.model.pets;
 
 public class Cat extends Pet
 {
@@ -12,5 +12,4 @@ public class Cat extends Pet
     {
         System.out.println("mayyy");
     }
-
 }
