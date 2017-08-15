@@ -1,9 +1,9 @@
-package com.view;
+package com.draxvel.petClinic.view;
 
-import com.model.Client;
-import com.model.Clinic;
-import com.model.pets.Cat;
-import com.model.pets.Dog;
+import com.draxvel.petClinic.model.Clinic;
+import com.draxvel.petClinic.model.Client;
+import com.draxvel.petClinic.model.pets.Dog;
+import com.draxvel.petClinic.model.pets.Cat;
 
 public class ConsoleView
 {

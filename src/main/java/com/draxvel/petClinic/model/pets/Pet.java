@@ -1,6 +1,6 @@
-package com.model.pets;
+package com.draxvel.petClinic.model.pets;
 
-import com.model.exception.EmptyNameException;
+import com.draxvel.petClinic.model.exception.EmptyNameException;
 
 public class Pet
 {

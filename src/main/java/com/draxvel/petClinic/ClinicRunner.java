@@ -1,6 +1,6 @@
-package com;
+package com.draxvel.petClinic;
 
-import com.view.ConsoleView;
+import com.draxvel.petClinic.view.ConsoleView;
 
 public class ClinicRunner
 {

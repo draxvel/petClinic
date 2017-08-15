@@ -1,11 +1,10 @@
-package com.model;
+package com.draxvel.petClinic.model;
 
 import java.util.Objects;
 import java.util.Vector;
 
 public class Clinic
 {
-    //clients list
     private final Vector <Client> vecClients = new Vector <Client> ();
 
     public void addClient (final Client client)
@@ -45,9 +44,10 @@ public class Clinic
         {
             for(int i =0; i<e.getVecPets().size(); i++)
             {
-                if(e.getPet(i).getName() == petName)
+                if(Objects.equals(e.getPet(i).getName(),petName))
                     return e;
             }
         }
         return null;
-    }}
+    }
+}

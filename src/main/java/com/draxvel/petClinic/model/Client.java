@@ -1,7 +1,7 @@
-package com.model;
+package com.draxvel.petClinic.model;
 
-import com.model.exception.EmptyNameException;
-import com.model.pets.Pet;
+import com.draxvel.petClinic.model.exception.EmptyNameException;
+import com.draxvel.petClinic.model.pets.Pet;
 
 import java.util.Vector;
 
@@ -29,6 +29,10 @@ public class Client
         return name;
     }
 
+    public int getId() {
+        return id;
+    }
+
     public void addPet (final Pet pet)
     {
         this.vecPets.add(pet);
@@ -50,9 +54,6 @@ public class Client
 
     @Override
     public String toString() {
-        return "Client{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                '}';
+        return name+" ";
     }
 }

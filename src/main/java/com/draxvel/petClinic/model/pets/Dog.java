@@ -1,4 +1,4 @@
-package com.model.pets;
+package com.draxvel.petClinic.model.pets;
 
 public class Dog extends Pet
 {
